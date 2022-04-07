@@ -1,4 +1,4 @@
-/* Creating a Jewelry Store Catalog */
+/* Creating a Jewelry Store Catalog  */
 
 CREATE TABLE jewelry 
 (id INTEGER PRIMARY KEY, 
