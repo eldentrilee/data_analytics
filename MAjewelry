@@ -1,0 +1,21 @@
+/* Creating a Jewelry Store Catalog */
+
+CREATE TABLE jewelry 
+(id INTEGER PRIMARY KEY, 
+name TEXT, 
+style TEXT, 
+color TEXT,
+qty INTEGER, 
+cost INTEGER, 
+msrp INTEGER, 
+supplier TEXT);
+
+INSERT into jewelry VALUES (1, "Cuff", "Polished", "Gold", 2, 3.2, 20, "Zorcvens");
+INSERT into jewelry VALUES (2, "Cuff", "Polished", "Rose Gold", 1, 3.2, 20, "Zorcvens");
+INSERT into jewelry VALUES (3, "Cuff", "Squared", "Gold", 1, 3, 20, "Zorcvens");
+INSERT into jewelry VALUES (4, "Bracelet", "Polished", "Rose Gold", 1, 3.65, 21, "Borasi");
+INSERT into jewelry VALUES (5, "Bracelet", "Polished", "Silver", 1, 3.65, 21, "Borasi");
+INSERT into jewelry VALUES (6, "Bracelet", "Rose Pattern", "Gold", 1, 4.35, 23, "Borasi");
+INSERT into jewelry VALUES (7, "Bracelet", "Rose Pattern", "Silver", 1, 4.35, 23, "Borasi");
+
+SELECT * FROM jewelry;
